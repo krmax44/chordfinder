@@ -914,18 +914,6 @@
     "@tonaljs/core" "^3.5.3"
     "@tonaljs/pcset" "^3.5.3"
 
-"@tonaljs/chord@^3.6.5":
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/@tonaljs/chord/-/chord-3.6.5.tgz#9f19b5c04558eefb66e64de41452f2f7514513ac"
-  integrity sha512-ecSD45hHwVD6uvhqQIAGZJZEHSlChztv3IzXyfWJwPmKhzlzJ69ngnbU9yFg0w3NVrBhI9CFeeMI5dC1LnR05Q==
-  dependencies:
-    "@tonaljs/chord-detect" "^3.5.5"
-    "@tonaljs/chord-type" "^3.5.5"
-    "@tonaljs/collection" "^3.5.3"
-    "@tonaljs/core" "^3.5.3"
-    "@tonaljs/pcset" "^3.5.3"
-    "@tonaljs/scale-type" "^3.5.4"
-
 "@tonaljs/collection@^3.5.3":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/@tonaljs/collection/-/collection-3.5.3.tgz#2e8c7e688b4707460d7ad3c8caedd2f2b9df9cc1"
@@ -950,14 +938,6 @@
   dependencies:
     "@tonaljs/collection" "^3.5.3"
     "@tonaljs/core" "^3.5.3"
-
-"@tonaljs/scale-type@^3.5.4":
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/@tonaljs/scale-type/-/scale-type-3.5.4.tgz#4d9e239231a26937430fa9d609c54e22a36549c0"
-  integrity sha512-XLE2RqRlVl+wD8hgd9iKkzYArxrS60422bS0azSY/lLKC+N3Fcg7lncfW5NkbZ4srDs5Dt+qsYmlfvOrYzDOmw==
-  dependencies:
-    "@tonaljs/core" "^3.5.3"
-    "@tonaljs/pcset" "^3.5.3"
 
 "@types/q@^1.5.1":
   version "1.5.4"

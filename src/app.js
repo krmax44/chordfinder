@@ -1,6 +1,6 @@
 import Midy from 'midy';
 import { midiToNoteName } from '@tonaljs/midi';
-import { detect } from '@tonaljs/chord';
+import { detect } from '@tonaljs/chord-detect';
 
 const chordNameEl = document.querySelector('.chordname');
 const errorEl = document.querySelector('.error');
@@ -12,10 +12,10 @@ function updateChord() {
     return;
   }
 
-  const noteNames = [...notes].map(n => midiToNoteName(n));
+  const noteNames = [...notes].sort().map(n => midiToNoteName(n));
   const chordNames = detect(noteNames);
 
-  if (chordNames.length == 0) {
+  if (chordNames.length === 0) {
     chordNameEl.innerText = '🤔';
     return;
   }

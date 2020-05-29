@@ -10,7 +10,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "@tonaljs/chord": "^3.6.5",
+    "@tonaljs/chord-detect": "^3.5.5",
     "@tonaljs/midi": "^3.5.3",
     "midy": "^1.0.1"
   }
