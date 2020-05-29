@@ -1,0 +1,17 @@
+{
+  "name": "chordfinder",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /chords/"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@tonaljs/chord": "^3.6.5",
+    "@tonaljs/midi": "^3.5.3",
+    "midy": "^1.0.1"
+  }
+}
