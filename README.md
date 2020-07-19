@@ -1,3 +1,3 @@
-# Chordfinder
+# Deprecated
 
-Live at https://krmax44.de/chords. Web MIDI unfortunately only works with Chrome so far.
+Deprecated in favor of [playing.wtf](https://github.com/krmax44/playing.wtf).
